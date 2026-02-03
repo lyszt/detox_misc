@@ -1,7 +1,7 @@
 # Detox Challenge Rules
 
 ## Overview
-The Detox Challenge is a self-imposed constraint to develop software projects using only terminal-based tools (specifically Neovim) without any AI assistance. This challenge aims to strengthen fundamental programming skills and self-reliance.
+The Detox Challenge is a strict self-imposed constraint to develop software projects using only terminal-based tools (specifically Neovim) with **no external assistance whatsoever** - no AI, no code examples, no tutorials. This hardcore challenge aims to maximize self-reliance and force deep mastery of fundamentals through pure problem-solving.
 
 ## Core Rules
 
@@ -27,74 +27,110 @@ The Detox Challenge is a self-imposed constraint to develop software projects us
 
 ### 3. Permitted Resources
 
-#### Documentation (Allowed)
-- Official language documentation
-- Library and framework documentation
-- Man pages
-- RFC documents
-- Technical specifications
-- Stack Overflow (for specific error messages or concepts)
-- GitHub issues and discussions (for bug reports or feature requests)
+#### Documentation (Allowed - Official Sources ONLY)
+- **Official language documentation** (language specs, standard library docs)
+- **Man pages** (system documentation)
+- **RFC documents** (for protocols and standards)
+- **Official API documentation** (from library/framework maintainers)
+
+#### Strictly Forbidden Resources
+- ❌ Stack Overflow or similar Q&A sites
+- ❌ Blog posts and tutorials
+- ❌ Code examples from the internet
+- ❌ YouTube videos or courses
+- ❌ GitHub code browsing (except for official docs)
+- ❌ Copy-pasting any code from any source
+- ❌ ChatGPT or asking anyone for help with specific problems
 
 #### Tools (Allowed)
-- Version control (git)
+- Version control (git) - for tracking your own work only
 - Build tools (make, cmake, cargo, npm, etc.)
-- Package managers
-- Linters and formatters (as long as they're not AI-powered)
-- Static analysis tools (non-AI)
-- Testing frameworks
-- Profilers and debuggers
+- Package managers (for installing dependencies only)
+- Linters and formatters (non-AI, configuration-free)
+- Compilers and interpreters
+- Basic debuggers (gdb, pdb, etc.)
+- Testing frameworks (write your own tests)
 
-#### Human Help (Allowed)
-- Reading blog posts and tutorials
-- Consulting with other developers
-- Pair programming with humans
-- Code reviews by humans
+#### Human Help (RESTRICTED)
+- ❌ No asking for help with specific problems
+- ❌ No pair programming
+- ❌ No code reviews until after completion
+- ✅ General discussions about concepts (not implementation details)
+- ✅ Rubber duck debugging (explain to yourself)
 
 ### 4. What You Must Do Yourself
-- Write all code manually
-- Debug your own issues
-- Design your own solutions
-- Research and learn from documentation
-- Think through problems independently
+- Write **every single line** of code from scratch
+- Debug all issues by reading error messages and official docs only
+- Design solutions entirely from your own understanding
+- Research using **only** official documentation
+- Think through **every** problem independently
+- Figure out algorithms and data structures yourself
+- Understand and implement all logic without examples
 
 ## Verification
 
-### Self-Verification Checklist
-Before committing code, ask yourself:
-- [ ] Did I write every line of code myself?
-- [ ] Did I use only terminal-based tools?
-- [ ] Did I avoid all AI assistance?
-- [ ] Did I rely on official documentation rather than AI?
-- [ ] Was all development done in Neovim/terminal?
+### Strict Self-Verification Checklist
+Before committing code, you **MUST** verify:
+- [ ] Did I write every single character of code myself?
+- [ ] Did I use ONLY terminal-based tools (Neovim/Vim)?
+- [ ] Did I avoid ALL AI assistance (including code completion)?
+- [ ] Did I consult ONLY official documentation?
+- [ ] Did I avoid Stack Overflow, tutorials, and blog posts?
+- [ ] Did I avoid copying ANY code from ANY source?
+- [ ] Did I solve ALL problems through my own reasoning?
+- [ ] Was ALL development done in Neovim/terminal?
+- [ ] Did I avoid asking anyone for help with implementation?
 
-### Commit Message Convention
-To demonstrate adherence to the challenge, consider including a note in commit messages:
+### Commit Message Convention (REQUIRED)
+All commits **MUST** include the `[DETOX]` tag:
 ```
 [DETOX] Your commit message here
 ```
 
+### Violation = Restart
+If you violate any rule, you must:
+1. Delete all code written during the violation
+2. Restart that feature/module from scratch
+3. Document the violation in a `VIOLATIONS.md` file
+
 ## Benefits of the Challenge
 
-1. **Skill Development**: Strengthens core programming abilities
-2. **Self-Reliance**: Builds confidence in solving problems independently
-3. **Deep Understanding**: Forces you to truly understand what you're building
-4. **Documentation Mastery**: Improves ability to read and understand official docs
-5. **Terminal Proficiency**: Enhances command-line and editor skills
+1. **Extreme Skill Development**: Forces mastery of fundamentals without crutches
+2. **Total Self-Reliance**: Builds unshakeable confidence in pure problem-solving ability
+3. **Deep Understanding**: Ensures you understand every single line you write
+4. **Documentation Mastery**: Forces you to become expert at reading specs and docs
+5. **Terminal Proficiency**: Maximizes command-line and editor efficiency
+6. **Mental Toughness**: Builds perseverance through difficult problem-solving
+7. **True Mastery**: No shortcuts means genuine understanding
 
 ## Exceptions
 
-### When AI Assistance May Be Considered
-The challenge can be paused or exceptions made for:
-- Critical production bugs requiring immediate fixes
-- Learning completely new technologies (initial exploration phase)
-- Time-sensitive deadlines with business impact
+### NO EXCEPTIONS
+There are **NO EXCEPTIONS** to this challenge. 
 
-However, note any exceptions in your project documentation.
+If you cannot complete a task under these constraints:
+- Either research more in official documentation
+- Or acknowledge the limitation and skip that feature
+- Or take a break and return with fresh perspective
+
+**Critical production bugs**: Create a separate branch outside the challenge.
+
+**Time-sensitive deadlines**: This challenge is not for production work under deadlines.
 
 ## Enforcement
 
-This is a self-imposed challenge based on the honor system. You are accountable to yourself for maintaining the integrity of the challenge.
+This is a **hardcore** self-imposed challenge based on absolute honesty and integrity. You must be ruthlessly honest with yourself about any violations.
+
+### Tracking Progress
+- Maintain a log of challenges faced
+- Document time spent debugging vs. coding
+- Track temptations to look up solutions (and resist them)
+- Celebrate victories when you solve hard problems alone
+
+### Accountability
+- You are accountable **only** to yourself
+- Your integrity is the only enforcement mechanism
+- Any violation diminishes the value of the entire challenge
 
 ## Getting Started
 
@@ -106,12 +142,22 @@ This is a self-imposed challenge based on the honor system. You are accountable 
 
 ## Resources for Success
 
+**OFFICIAL DOCUMENTATION ONLY:**
 - Neovim documentation: `:help`
-- Language-specific official documentation
+- Language-specific official documentation (language websites, spec documents)
 - Man pages: `man <command>`
-- Built-in help systems for your programming languages
-- Traditional programming books and resources
+- Built-in help systems (`--help`, `-h` flags)
+- Official API references from library maintainers
+- Language specifications and RFCs
+
+**FORBIDDEN:**
+- Any tutorials, guides, or how-to articles
+- Stack Overflow or Q&A sites
+- Blog posts or Medium articles
+- YouTube or video tutorials
+- Example code repositories
+- Community forums (except for bug reports on your own code)
 
 ---
 
-**Remember**: The goal is growth through constraint. Embrace the challenge and enjoy the learning process!
+**Remember**: This is an **extreme** challenge. The goal is to push yourself to the absolute limit and grow through struggle. No shortcuts. No excuses. Just you, your editor, and official documentation.
