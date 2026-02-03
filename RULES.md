@@ -1,7 +1,7 @@
 # Detox Challenge Rules
 
 ## Overview
-The Detox Challenge is a strict self-imposed constraint to develop software projects using only terminal-based tools (specifically Neovim) with **no external assistance whatsoever** - no AI, no code examples, no tutorials. This hardcore challenge aims to maximize self-reliance and force deep mastery of fundamentals through pure problem-solving.
+The Detox Challenge is a strict self-imposed constraint to develop software projects using only terminal-based tools (specifically Neovim) with **no implementation assistance whatsoever** - no AI, no code examples, no tutorials. This hardcore challenge aims to maximize self-reliance and force deep mastery of fundamentals through pure problem-solving. General conceptual discussions are allowed, but no specific implementation help.
 
 ## Core Rules
 
@@ -40,7 +40,7 @@ The Detox Challenge is a strict self-imposed constraint to develop software proj
 - ❌ YouTube videos or courses
 - ❌ GitHub code browsing (except for official docs)
 - ❌ Copy-pasting any code from any source
-- ❌ ChatGPT or asking anyone for help with specific problems
+- ❌ ChatGPT or similar AI chat tools
 
 #### Tools (Allowed)
 - Version control (git) - for tracking your own work only
@@ -89,9 +89,10 @@ All commits **MUST** include the `[DETOX]` tag:
 
 ### Violation = Restart
 If you violate any rule, you must:
-1. Delete all code written during the violation
-2. Restart that feature/module from scratch
-3. Document the violation in a `VIOLATIONS.md` file
+1. Identify when the violation occurred
+2. Delete all code written from the point of violation onward
+3. Restart that portion from scratch (the specific function, feature, or module)
+4. Document the violation in a `VIOLATIONS.md` file (what rule, when, what was deleted)
 
 ## Benefits of the Challenge
 
