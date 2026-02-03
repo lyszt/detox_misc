@@ -1,4 +1,19 @@
 # Detox Challenge Rules
+```
+
+
+    In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation of a by-gone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin vanguarding vice and vouchsafing the violently vicious and voracious violation of volition.
+
+    [carves V into wall]
+
+    The only verdict is vengeance; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous.
+
+    [giggles]
+
+    Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it is my very good honor to meet you and you may call me V.
+
+
+```
 
 ## Overview
 The Detox Challenge is a strict self-imposed constraint to develop software projects using only terminal-based tools (specifically Neovim) with **no implementation assistance whatsoever** - no AI, no code examples, no tutorials. This hardcore challenge aims to maximize self-reliance and force deep mastery of fundamentals through pure problem-solving. General conceptual discussions are allowed, but no specific implementation help.
@@ -55,8 +70,6 @@ The Detox Challenge is a strict self-imposed constraint to develop software proj
 - ❌ No asking for help with specific problems
 - ❌ No pair programming
 - ❌ No code reviews until after completion
-- ✅ General discussions about concepts (not implementation details)
-- ✅ Rubber duck debugging (explain to yourself)
 
 ### 4. What You Must Do Yourself
 - Write **every single line** of code from scratch
@@ -66,26 +79,7 @@ The Detox Challenge is a strict self-imposed constraint to develop software proj
 - Think through **every** problem independently
 - Figure out algorithms and data structures yourself
 - Understand and implement all logic without examples
-
-## Verification
-
-### Strict Self-Verification Checklist
-Before committing code, you **MUST** verify:
-- [ ] Did I write every single character of code myself?
-- [ ] Did I use ONLY terminal-based tools (Neovim/Vim)?
-- [ ] Did I avoid ALL AI assistance (including code completion)?
-- [ ] Did I consult ONLY official documentation?
-- [ ] Did I avoid Stack Overflow, tutorials, and blog posts?
-- [ ] Did I avoid copying ANY code from ANY source?
-- [ ] Did I solve ALL problems through my own reasoning?
-- [ ] Was ALL development done in Neovim/terminal?
-- [ ] Did I avoid asking anyone for help with implementation?
-
-### Commit Message Convention (REQUIRED)
-All commits **MUST** include the `[DETOX]` tag:
-```
-[DETOX] Your commit message here
-```
+  
 
 ### Violation = Restart
 If you violate any rule, you must:
@@ -122,34 +116,13 @@ If you cannot complete a task under these constraints:
 
 This is a **hardcore** self-imposed challenge based on absolute honesty and integrity. You must be ruthlessly honest with yourself about any violations.
 
-### Tracking Progress
-- Maintain a log of challenges faced
-- Document time spent debugging vs. coding
-- Track temptations to look up solutions (and resist them)
-- Celebrate victories when you solve hard problems alone
-
 ### Accountability
 - You are accountable **only** to yourself
 - Your integrity is the only enforcement mechanism
 - Any violation diminishes the value of the entire challenge
 
-## Getting Started
-
-1. Disable all AI-powered tools and plugins
-2. Configure Neovim without AI assistance features
-3. Set up your terminal environment
-4. Begin coding with only documentation and human knowledge
-5. Track your progress and learnings
 
 ## Resources for Success
-
-**OFFICIAL DOCUMENTATION ONLY:**
-- Neovim documentation: `:help`
-- Language-specific official documentation (language websites, spec documents)
-- Man pages: `man <command>`
-- Built-in help systems (`--help`, `-h` flags)
-- Official API references from library maintainers
-- Language specifications and RFCs
 
 **FORBIDDEN:**
 - Any tutorials, guides, or how-to articles
